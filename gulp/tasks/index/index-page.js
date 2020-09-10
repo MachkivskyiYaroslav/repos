@@ -6,9 +6,6 @@ require('require-yaml');
 gulp.task('list-pages', function() {
     return gulp
         .src(config.dest.html + '/index.html')
-        .pipe(consolidate('lodash', {
-            pages: pages
-        }))
         .pipe(gulp.dest(config.dest.html));
 });
 
