@@ -1,7 +1,6 @@
 ProjectTitle: template
 
 PageList:
-- file: page.html
+- file: index.html
   ready: 50
-- file: example.html
-  ready: 50
+
